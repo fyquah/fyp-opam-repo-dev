@@ -1,6 +1,6 @@
 opam-version: "1"
 version: "4.06.0"
-src: "https://github.com/fyquah95/ocaml/tarball/reduce-cmx-files-sizes-dev"
+src: "https://github.com/fyquah95/ocaml/tarball/reduce-cmx-files-sizes"
 build: [
   ["./configure" "-prefix" "%{prefix}%" "-flambda"]
   ["%{make}%" "world"]
